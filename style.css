@@ -368,11 +368,12 @@ h1 {
   
   .center-section {
     flex-direction: column;
-    margin-top: 20%;
-    margin-bottom: 60%;
+    margin-top: 30%;
+    margin-bottom: 40%;
   }
   .center-section__img {
     margin-right: 0;
+    
   }
   .center-section h2{
     font-size: 24px;
