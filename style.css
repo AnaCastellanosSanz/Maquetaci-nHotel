@@ -113,6 +113,15 @@ h1 {
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
 .center-section__content {
     display: flex;
     flex-direction: column;
@@ -168,6 +177,8 @@ h1 {
 
 
 
+
+  
   
   /*GALERIA*/
 
@@ -342,3 +353,131 @@ h1 {
 }
 
   
+
+
+
+
+
+/*RESPONSIVE*/
+
+/* Para dispositivos móviles */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+  .center-section {
+    flex-direction: column;
+    margin-top: 20%;
+    margin-bottom: 60%;
+  }
+  .center-section__img {
+    margin-right: 0;
+  }
+  .center-section h2{
+    font-size: 24px;
+  }
+  .center-section h3{
+    font-size: 18px;
+  }
+  .center-section p{
+    font-size: 14px;
+  }
+  .button {
+    width: 80%;
+  }
+  .galeria {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .main-section1,
+  .main-section2 {
+    flex-direction: column;
+  }
+  
+  .sub-section1,
+  .sub-section1_2,
+  .sub-section1_3,
+  .sub-section2,
+  .sub-section2_izq,
+  .sub-section2_right {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  
+  .columna-izquierda {
+    width: 100%;
+  }
+  
+  .columna-derecha {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .main-section3 .columna-derecha {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+/* Para tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+  .center-section {
+    flex-direction: column;
+  }
+  .center-section__img {
+    margin-right: 0;
+  }
+  .center-section h2{
+    font-size: 24px;
+  }
+  .center-section h3{
+    font-size: 18px;
+  }
+  .center-section p{
+    font-size: 14px;
+  }
+  .button {
+    width: 80%;
+  }
+  
+  .galeria {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .main-section1,
+  .main-section2 {
+    flex-direction: column;
+  }
+  
+  .sub-section1,
+  .sub-section1_2,
+  .sub-section1_3,
+  .sub-section2,
+  .sub-section2_izq,
+  .sub-section2_right {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  
+  .columna-izquierda {
+    width: 100%;
+  }
+  
+  .columna-derecha {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .main-section3 .columna-derecha {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
