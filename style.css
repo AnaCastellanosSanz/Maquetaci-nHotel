@@ -369,7 +369,7 @@ h1 {
   .center-section {
     flex-direction: column;
     margin-top: 30%;
-    margin-bottom: 40%;
+    margin-bottom: 60%;
   }
   .center-section__img {
     margin-right: 0;
@@ -464,6 +464,8 @@ h1 {
   
   .center-section {
     flex-direction: column;
+    margin-top: 30%;
+    margin-bottom: 60%;
   }
   .center-section__img {
     margin-right: 0;
