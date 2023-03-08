@@ -6,6 +6,9 @@ body {
     font-family: sans-serif;
    
 }
+
+/*Sección principal*/
+
 .full-width {
     width: 100vw;
     height: 100vh;
@@ -117,10 +120,7 @@ h1 {
 
 
 
-
-
-
-
+/*Sección de iconos*/
 
 .center-section__content {
     display: flex;
@@ -419,6 +419,40 @@ h1 {
     width: 100%;
     margin-bottom: 0;
   }
+
+  .sub-section1 .texto p {
+    margin-top: 50%;
+    
+  }
+  
+  .sub-section1_2 .texto p {
+    margin-top: 50%;
+  
+  }
+  
+  .sub-section1_3 .texto p {
+    margin-top: 50%;
+   
+  }
+  .sub-section2 .texto p {
+    margin-top: 50%;
+   
+  }
+  
+  .sub-section2_izq .texto p {
+    margin-top: 50%;
+   
+  }
+
+  .sub-section2_right .texto p {
+    margin-top: 100%;
+
+  }
+
+  .main-section3 .columna-derecha .texto p {
+    margin-top: 50%;
+
+  }
 }
 
 /* Para tablets */
@@ -478,6 +512,39 @@ h1 {
   .main-section3 .columna-derecha {
     width: 100%;
     margin-bottom: 0;
+  }
+  .sub-section1 .texto p {
+    margin-top: 50%;
+    
+  }
+  
+  .sub-section1_2 .texto p {
+    margin-top: 50%;
+  
+  }
+  
+  .sub-section1_3 .texto p {
+    margin-top: 50%;
+   
+  }
+  .sub-section2 .texto p {
+    margin-top: 50%;
+   
+  }
+  
+  .sub-section2_izq .texto p {
+    margin-top: 50%;
+   
+  }
+
+  .sub-section2_right .texto p {
+    margin-top: 100%;
+
+  }
+
+  .main-section3 .columna-derecha .texto p {
+    margin-top: 50%;
+
   }
 }
 
